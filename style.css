@@ -1,0 +1,254 @@
+body {
+    margin: 45px;
+    font-family: "Poppins", sans-serif;
+
+    background-image: url(Image.jpg);
+    background-size: cover;
+}
+
+
+.main {
+    text-align: center;
+    background-color: rgb(240, 231, 233);
+    margin-left: 375px;
+    margin-right: 375px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    border-radius: 40px;
+}
+
+.main-content {
+    text-align: left;
+    margin-left: 55px;
+    margin-top: 35px;
+}
+
+.header {
+    text-align: center;
+}
+
+header img {
+    width: 72px;
+    line-height: 25px;
+}
+
+header h1 {
+    line-height: 29px;
+}
+
+.text-area {
+    display: flex;
+}
+
+#mv {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.card-name {
+    border-radius: 5px;
+    inline-size: 330px;
+    block-size: 37px;
+    border-radius: 12px;
+    background-color: rgb(240, 231, 233);
+    border: 1px solid #999;
+    outline: none;
+}
+
+.card-number {
+    border-radius: 5px;
+    inline-size: 330px;
+    block-size: 37px;
+    border-radius: 12px;
+    background-color: rgb(240, 231, 233);
+    border: 1px solid #999;
+    outline: none;
+}
+
+#vm {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.mm {
+
+    width: 96px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 12px;
+    margin-right: 5px;
+    background-color: rgb(240, 231, 233);
+    border: 1px solid #999;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    inline-size: 100px;
+}
+
+.vv {
+    width: 96px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 12px;
+    margin-right: -5px;
+    background-color: rgb(240, 231, 233);
+    border: 1px solid #999;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    inline-size: 100px;
+}
+
+.jj {
+    width: 96px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 12px;
+    margin-right: 5px;
+    background-color: rgb(240, 231, 233);
+    border: 1px solid #999;
+    outline: none;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    inline-size: 100px;
+}
+
+.card-billing {
+    margin-top: -3px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#mjv {
+    margin-bottom: -11px;
+    font-size: 13px;
+}
+
+#name {
+    border-radius: 7px;
+}
+
+.about {
+    margin-top: 0px;
+    color: rgb(110, 108, 108);
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+.bill {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.save-card {
+    display: flex;
+    font-size: 15px;
+}
+
+#m {
+    margin-left: 45px;
+    margin-top: -3px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#v {
+    margin-top: -14px;
+    font-size: 10px;
+    color: gray;
+    font-weight: 500;
+}
+
+.about a {
+    color: blue;
+}
+
+.can {
+    border-radius: 10px;
+    inline-size: 115px;
+    block-size: 34px;
+    background-color: white;
+    border: 1px solid #999;
+    outline: none;
+    border-color: white;
+    margin-right: 39px;
+    margin-top: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.subm {
+    border-radius: 10px;
+    inline-size: 115px;
+    block-size: 34px;
+    color: white;
+    background-color: rgb(60 58 78);
+    border: 1px solid #999;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn {
+    background: #6b6868;
+    block-size: 8px;
+    inline-size: 20px;
+    margin-left: 9px;
+    border-radius: 7px;
+    outline: none;
+    border-color: transparent;
+}
+
+.btn2 {
+    block-size: 3px;
+    inline-size: 2px;
+    margin-left: -13px;
+    border-radius: 7px;
+    border-color: transparent;
+    margin-top: 2px;
+}
+
+.icon-month {
+    height: 13px;
+}
+
+.icon-year {
+    height: 13px;
+    margin-left: -36px;
+}
+
+.cvv-card {
+    height: 13px;
+}
+
+.month-year-cvv {
+    display: flex
+}
+
+.month {
+    justify-content: space-between;
+    font-size: 10px;
+    color: gray;
+    margin-left: 5px;
+
+}
+
+.year {
+    font-size: 10px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.cvv {
+    font-size: 11px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.month-year-cvv {
+    height: 36px;
+}
